@@ -11,14 +11,16 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:theme="@style/Theme.Kisankavikas"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.nexalogic.kisankavikas.SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.nexalogic.kisankavikas.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
